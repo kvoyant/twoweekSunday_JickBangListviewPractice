@@ -29,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
         mBangAdapter = new BangAdapter(MainActivity.this, bangList);
         act.jickBangRankListView.setAdapter(mBangAdapter);
 
-        //상세정보
+        //직방 상세정보
         act.jickBangRankListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                
+
             }
         });
     }
